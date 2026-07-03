@@ -30,7 +30,7 @@ Här kan du skriva vilka kriterier du har arbetat med.
 |A        | ✅    |
 |B        | ✅    |
 |C        | ✅    |
-|D        |      |
+|D        | ✅    |
 |E        |      |
 |F        |      |
 |G        |      |
