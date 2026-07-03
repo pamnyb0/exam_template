@@ -33,8 +33,8 @@ Här kan du skriva vilka kriterier du har arbetat med.
 |D        | ✅    |
 |E        | ✅    |
 |F        | ✅    |
-|G        |      |
-|H        |      |
+|G        | ✅    |
+|H        | ✅    |
 
 |Version 2|Status|
 |---------|------|

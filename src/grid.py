@@ -53,7 +53,16 @@ class Grid:
             self.set(j, 0, self.wall)
             self.set(j, self.height - 1, self.wall)
 
+        for x in range(4, 13):
+            self.set(x, 3, self.wall)
 
+        for y in range(5, 9):
+            self.set(28, y, self.wall)
+        for x in range(28, 33):
+            self.set(x, 8, self.wall)
+
+        for y in range(6, 10):
+            self.set(6, y, self.wall)
     # Används i filen pickups.py
     def get_random_x(self):
         """Slumpa en x-position på spelplanen"""
