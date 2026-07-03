@@ -27,7 +27,7 @@ Här kan du skriva vilka kriterier du har arbetat med.
 
 |Version 1|Status|
 |---------|------|
-|A        | ?    |
+|A        | ✅    |
 |B        |      |
 |C        |      |
 |D        |      |

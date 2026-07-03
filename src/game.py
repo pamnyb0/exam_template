@@ -7,11 +7,11 @@ from src import pickups
 class GameState:
     """Samla spelets variabler i en klass."""
     def __init__(self):
-        self.player = Player(2, 1)
         self.score = 0
         self.inventory = []
 
         self.g = Grid()
+        self.player = Player(self.g.width // 2, self.g.height // 2)
         self.g.set_player(self.player)
         self.g.make_walls()
         pickups.randomize(self.g)
