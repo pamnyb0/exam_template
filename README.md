@@ -29,7 +29,7 @@ Här kan du skriva vilka kriterier du har arbetat med.
 |---------|------|
 |A        | ✅    |
 |B        | ✅    |
-|C        |      |
+|C        | ✅    |
 |D        |      |
 |E        |      |
 |F        |      |
