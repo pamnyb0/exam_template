@@ -38,6 +38,7 @@ def try_move_player(state, dx, dy):
         return
     maybe_item = state.g.get(state.player.pos_x + dx, state.player.pos_y + dy)
     state.player.move(dx, dy)
+    state.score -= 1
     if isinstance(maybe_item, pickups.Item):
         state.score += maybe_item.value
         print(f"You found a {maybe_item.name}, +{maybe_item.value} points.")
