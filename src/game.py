@@ -3,7 +3,6 @@ from src.player import Player
 from src import pickups
 
 
-# TODO: flytta denna till en annan fil
 class GameState:
     """Samla spelets variabler i en klass."""
     def __init__(self):
@@ -17,7 +16,6 @@ class GameState:
         pickups.randomize(self.g)
 
 
-# TODO: flytta denna till en annan fil
 def print_status(game_grid, state):
     """Visa spelvärlden och antal poäng."""
     print("--------------------------------------")

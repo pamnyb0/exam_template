@@ -74,6 +74,8 @@ class Grid:
 
 
     def is_empty(self, x, y):
-        """Returnerar True om det inte finns något på aktuell ruta"""
+        """Returnerar True om rutan är ledig och inte är spelarens position."""
+        if x == self.player.pos_x and y == self.player.pos_y:
+            return False
         return self.get(x, y) == self.empty
 

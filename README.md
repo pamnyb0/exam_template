@@ -1,54 +1,35 @@
-# Examination
+# Fruit Loop
 
-Individuell examinationsuppgift i kursen Programmering med Python.
+Fruit Loop är ett enkelt terminalspel där du styr spelaren `@` på en spelplan omgiven av väggar. Gå runt, plocka upp föremål, samla poäng och håll koll på ditt inventory. Varje steg kostar 1 poäng, och frukter ger mer poäng än andra föremål.
 
-## Instruktioner
-Detta är filen `README.md`. Du ska beskriva projektet och hur man startar det. Du får ändra allt innehåll i denna.
+## Starta spelet
 
-Byt gärna namn på projektet så att det inte heter "exam_template" när du lämnar in.
-
-Om något i instruktionerna är oklart - fråga läraren, skriv i någon öppen Discord-kanal eller fråga en AI.
-
----
-
-
-## Starta projektet
-
-För att starta mitt projekt skriver man följande i terminalen, medan man står i projektets rotmapp.
+Kör följande kommando i terminalen från projektets rotmapp:
 
 ```commandline
 python -m src.game
 ```
 
-## Vad jag har gjort
-Här kan du skriva vilka kriterier du har arbetat med.
+## Kontroller
 
-*Du kan använda emojis för att visa om du är klar med ett krav.* ✅❌
+| Tangent | Funktion |
+|---------|----------|
+| W | Gå upp |
+| A | Gå vänster |
+| S | Gå ner |
+| D | Gå höger |
+| I | Visa inventory |
+| Q / X | Avsluta spelet |
 
-|Version 1|Status|
-|---------|------|
-|A        | ✅    |
-|B        | ✅    |
-|C        | ✅    |
-|D        | ✅    |
-|E        | ✅    |
-|F        | ✅    |
-|G        | ✅    |
-|H        | ✅    |
+## Version 1
 
-|Version 2|Status|
-|---------|------|
-|I        |      |
-|J        |      |
-|K        |      |
-|L        |      |
-|M        |      |
-|N        |      |
-
-|Version 3|Status|
-|---------|------|
-|O        |      |
-|P        |      |
-|Q        |      |
-|R        |      |
-|S        |      |
+| Krav | Status |
+|------|--------|
+| A | ✅ |
+| B | ✅ |
+| C | ✅ |
+| D | ✅ |
+| E | ✅ |
+| F | ✅ |
+| G | ✅ |
+| H | ✅ |
