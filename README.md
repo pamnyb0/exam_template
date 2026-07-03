@@ -31,8 +31,8 @@ Här kan du skriva vilka kriterier du har arbetat med.
 |B        | ✅    |
 |C        | ✅    |
 |D        | ✅    |
-|E        |      |
-|F        |      |
+|E        | ✅    |
+|F        | ✅    |
 |G        |      |
 |H        |      |
 

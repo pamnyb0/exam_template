@@ -41,7 +41,17 @@ def try_move_player(state, dx, dy):
     if isinstance(maybe_item, pickups.Item):
         state.score += maybe_item.value
         print(f"You found a {maybe_item.name}, +{maybe_item.value} points.")
+        state.inventory.append(maybe_item.name)
         state.g.clear(state.player.pos_x, state.player.pos_y)
+
+
+def print_inventory(state):
+    if not state.inventory:
+        print("Ditt inventory är tomt.")
+    else:
+        print("Ditt inventory:")
+        for item in state.inventory:
+            print(f"- {item}")
 
 
 def start(state):
@@ -56,6 +66,8 @@ def start(state):
         if command in MOVES:
             dx, dy = MOVES[command]
             try_move_player(state, dx, dy)
+        elif command == "i":
+            print_inventory(state)
 
     # Hit kommer vi när while-loopen slutar
     print("Thank you for playing!")
